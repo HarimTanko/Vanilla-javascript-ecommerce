@@ -1,0 +1,15 @@
+[
+  {
+    "email": "yaga@yaga.com"
+  },
+  {
+    "email": "admin@example.com",
+    "password": "12345",
+    "id": "92759752"
+  },
+  {
+    "email": "glad@glad.com",
+    "password": "passy",
+    "id": "a321248a"
+  }
+]
