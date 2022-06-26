@@ -1,5 +1,6 @@
-const usersRepo = require('../../repositories/users.js');
 const express = require('express');
+const usersRepo = require('../../repositories/users.js');
+
 const signupTemplate = require('../../views/admin/auth/signup');
 const signinTemplate = require('../../views/admin/auth/signin');
 
