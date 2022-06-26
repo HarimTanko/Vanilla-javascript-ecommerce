@@ -11,10 +11,13 @@
     "email": "glad@glad.com",
     "password": "passy",
     "id": "a321248a"
+<<<<<<< HEAD
   },
   {
     "email": "Test-5 @test.com",
     "password": "12345",
     "id": "e2c4b46d"
+=======
+>>>>>>> parent of d82d8f2 (user authentification and folder restructure)
   }
 ]

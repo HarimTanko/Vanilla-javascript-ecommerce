@@ -40,10 +40,9 @@ router.get('/signout', (req, res) => {
   res.send('You are logged out');
 });
 
-router.get('/signnin', (req, res) => {
+router.get('/signin', (req, res) => {
   res.send('kai');
 });
-
 
 router.post('/signin', async (req, res) => {
   const { email, password } = req.body;
