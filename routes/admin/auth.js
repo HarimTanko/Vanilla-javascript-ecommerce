@@ -5,10 +5,6 @@ const signinTemplate = require('../../views/admin/auth/signin');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  res.send('home');
-});
-
 router.get('/signup', (req, res) => {
   res.send(signupTemplate({ req }));
 });
@@ -41,7 +37,7 @@ router.get('/signout', (req, res) => {
 });
 
 router.get('/signin', (req, res) => {
-  res.send('kai');
+  res.send(signinTemplate());
 });
 
 router.post('/signin', async (req, res) => {
