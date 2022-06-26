@@ -11,20 +11,5 @@
     "email": "glad@glad.com",
     "password": "passy",
     "id": "a321248a"
-  },
-  {
-    "email": "pabda@panda.com",
-    "password": "12345",
-    "id": "93a244cd"
-  },
-  {
-    "email": "kai@kai.com",
-    "password": "d761233d8cb92a2a8e4e26f408f2d4640a35332a20a843d2d569c2b4d564ed78c1764139607727b78e64dd5c7ab914ba9139450d91d23fcbc30581f4fb193870.2051a9b8ee015ef9",
-    "id": "37e47370"
-  },
-  {
-    "email": "jai@jai.com",
-    "password": "15932fd122ec15111aba6bdce6b6e056f662eaf8c02dd727464144e63b30e6c16296a5c341ff1a90ec14c6928910b6be148fc6519dd246104430916b8b509289.d180dbd3359d55d1",
-    "id": "2c6f3b15"
   }
 ]
