@@ -5,29 +5,13 @@ const signinTemplate = require('../../views/admin/auth/signin');
 
 const router = express.Router();
 
+router.get('/', (req, res) => {
+  res.send('home');
+});
+
 router.get('/signup', (req, res) => {
   res.send(signupTemplate({ req }));
 });
-
-// const bodyParser = (req, res, next) => {
-//   if (req.method === 'POST') {
-//     req.on('data', (data) => {
-//       const parsed = data.toString('utf8').split('&');
-
-//       let formData = {};
-
-//       for (let pair of parsed) {
-//         const [key, value] = pair.split('=');
-
-//         formData[key] = value;
-//       }
-//       req.body = formData;
-//       next();
-//     });
-//   } else {
-//     next();
-//   }
-// };
 
 router.post('/signup', async (req, res) => {
   const { email, password, passwordConfirmation } = req.body;
@@ -56,9 +40,10 @@ router.get('/signout', (req, res) => {
   res.send('You are logged out');
 });
 
-router.get('/signin', (req, res) => {
-  res.send(signinTemplate());
+router.get('/signnin', (req, res) => {
+  res.send('kai');
 });
+
 
 router.post('/signin', async (req, res) => {
   const { email, password } = req.body;
