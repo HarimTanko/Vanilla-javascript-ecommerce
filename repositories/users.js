@@ -31,11 +31,11 @@ class UsersRepository {
   async create(attr) {
     attr.id = this.randomId();
     const salt = crypto.randomBytes(8).toString('hex');
-    console.log(salt);
 
     const buf = await scrypt(attr.password, salt, 64);
 
     const records = await this.getAll();
+
     const record = {
       ...attr,
       password: `${buf.toString('hex')}.${salt}`,
